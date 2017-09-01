@@ -1,0 +1,24 @@
+{
+  "name": "todolist-json-server",
+  "version": "1.0.0",
+  "description": "practice todolist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json": "json-server --watch public/DB/db.json --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigantes88/todolist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gigantes88/todolist/issues"
+  },
+  "homepage": "https://github.com/gigantes88/todolist#readme",
+  "devDependencies": {
+    "json-server": "^0.12.0"
+  }
+}
